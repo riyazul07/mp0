@@ -1,1 +1,46 @@
 /* Your CSS here. */
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px;
+}
+.card {
+  background-color: #ff7300;
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.card h1 {
+  margin: 10px 0 5px;
+  color: #010053;
+}
+.card .email {
+  margin: 5px 0;
+  font-style: italic;
+}
+.card a {
+  display: block;
+  margin: 10px 0 20px;
+  color: #87ceeb;
+  text-decoration: none;
+}
+.card a {
+  text-decoration: underline;
+  color: #010053;
+}
+.card .bio {
+  text-align: left;
+  line-height: 1.5;
+  color: #010053;
+}
