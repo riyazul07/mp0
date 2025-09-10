@@ -32,12 +32,8 @@ body {
 .card a {
   display: block;
   margin: 10px 0 20px;
-  color: #87ceeb;
-  text-decoration: none;
-}
-.card a {
-  text-decoration: underline;
   color: #010053;
+  text-decoration: underline;
 }
 .card .bio {
   text-align: left;
